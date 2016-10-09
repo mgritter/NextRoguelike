@@ -1,6 +1,9 @@
 {
 	"origin": [
-		"#gameadj.a.capitalize# #gametype# #feature#"
+		"#gameadj.a.capitalize# #gametype# #feature#",
+		"#coolthing.capitalize# and #coolthing# in a #gameadj# #gametype#",
+		"#author.capitalize# meets #gamename# in a #gameadj# #gametype#",
+		"#gametype.a.capitalize# like #gamename#, but with #butwith#"
 	],
 	"gamename": [
 		"Rogue",
@@ -17,7 +20,7 @@
 		"Cogmind",
 		"Elite",
 		"Minecraft",
-    "Tetris"
+                "Tetris"
 	],
 	"ascii": [
 		"ASCII",
@@ -25,8 +28,8 @@
 		"tile",
 		"emoji",
 		"character",
-    "text",
-    "voxel"
+                "text",
+                "voxel"
 	],
 	"gameadj": [
 		"roguelike",
@@ -39,7 +42,7 @@
 		"dungeon crawler",
 		"survival game",
 		"sandbox",
-		"game",
+		"casual game",
 		"MMO",
 		"augmented reality",
 		"role-playing game",
@@ -48,23 +51,31 @@
 		"virtual world",
 		"RPG",
 		"art project",
-		"puzzle platformer",
-    "platformer",
-    "shared world",
-    "interactive novel"
+  	        "puzzle platformer",
+                "platformer",
+                "shared world",
+                "interactive novel"
 	],
 	"feature": [
 		"featuring #coolthing#",
 		"based on the works of #author#",
 		"with #coolthing# and #setting# from #author#",
 		"that feels like #author# and runs on #platform#",
-    "that's a mashup with #gamename#",
-    "which plays like a collaboration between #author# and #author#",
-    "like #author# crossed with #mediaproperty#"
+                "that's a mashup with #gamename#",
+                "which plays like a collaboration between #author# and #author#",
+                "like #author# crossed with #mediaproperty#"
 	],
+	"butwith" : [
+		"#coolthing#",
+		"#setting# from #author#",
+		"elements from #gamename#",
+		"elements of #gametype.a#",
+		"#author.a# feel",
+		"#mediaproperty.a# feel"
+       ],
 	"coolthing": [
 		"#technology#",
-		"realistic #playelement#",
+		"#superlative# #playelement#",
 		"#genre# #setting#"
 	],
 	"author": [
@@ -96,7 +107,7 @@
 		"Alfred Bester",
 		"Philip K. Dick",
 		"Magic Realism Bot",
-    "Iain M. Banks"
+                "Iain M. Banks"
 	],
 	"mediaproperty": [
 		"Mission Impossible",
@@ -108,8 +119,11 @@
 		"Daredevil",
 		"Jessica Jones",
 		"Ghostbusters",
-		"Frozen"
-  ],
+		"Frozen",
+		"Eureka",
+		"Warehouse 13",
+		"Avengers"
+        ],
 	"setting": [
 		"themes",
 		"ideas",
@@ -125,10 +139,22 @@
 		"science fiction",
 		"horror",
 		"romance",
-    "Western",
-    "steampunk",
-    "teapunk",
-    "mystery"
+                "Western",
+                "steampunk",
+                "teapunk",
+                "mystery",
+		"cyberpunk"
+	],
+	"superlative": [
+		"realistic",
+		"fantastic",
+		"next-generation",
+		"improved",
+		"geektastic",
+		"awe-inspiring",
+		"creative",
+		"unbelievable",
+		"industry-leading"
 	],
 	"playelement": [
 		"combat",
@@ -144,7 +170,7 @@
 		"physics",
 		"planets",
 		"farming",
-    "plate tectonics"
+                "plate tectonics"
 	],
 	"technology": [
 		"natural language processing",
@@ -153,13 +179,13 @@
 		"online play",
 		"artificial intelligence",
 		"VR",
-    "IoT",
-    "online marketplaces",
-    "3-D environments",
-    "container-based microservices",
-    "user-generated content",
-    "Twitter integration",
-    "Slack integration"
+                "IoT",
+                "online marketplaces",
+                "3-D environments",
+                "container-based microservices",
+                "user-generated content",
+                "Twitter integration",
+                "Slack integration"
 	],
 	"platform": [
 		"Android",
@@ -167,9 +193,9 @@
 		"XBox",
 		"mobile devices",
 		"the browser",
-    "Google Cardboard",
-    "a shared Telnet server",
-    "Slack",
-	  "Google Allo"
+                "Google Cardboard",
+                "a shared Telnet server",
+                "Slack",
+	        "Google Allo"
 	]
 }
