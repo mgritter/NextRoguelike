@@ -1,0 +1,7 @@
+{
+"origin":["#brewery# #adjective# #style#"],
+"brewery":["#city# Brewery", "#city# Brewing", "#city#"],
+"city":["Edina", "Stillwater", "Eagan", "Roseville"],
+"adjective":["peanut butter", "pumpkin", "pale", "Skittle"],
+"style":["porter", "ale", "stout", "lager"]
+}
