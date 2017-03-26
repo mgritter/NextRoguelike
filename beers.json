@@ -1,7 +1,14 @@
 {
-"origin":["#brewery# #adjective# #style#"],
-"brewery":["#city# Brewery", "#city# Brewing", "#city#"],
-"city":["Edina", "Stillwater", "Eagan", "Roseville"],
-"adjective":["peanut butter", "pumpkin", "pale", "Skittle"],
+"origin":["[b:#brewery#]#b# #adjective# [s:#style#]#s#. This #beerDescription# #insult#."],
+"beerDescription":["#bad##s#","#bad#beer","#bad#beverage","#bad#creation from #b#"],
+"bad":["awful ","bad ","mouth-destroying ","depressing ","evil ","undrinkable ",""],
+"insult":["makes me sad","reminds me of #otherfood#","is a very bad #s# indeed","smells of #smell#"],
+"otherfood":["gravy","Cheetos","sadness","Minnebar","last year's yogurt"],
+"smell":["elderberries","death","crude oil","socks"],
+"brewery":["#city# Brewery", "#city# Brewing", "#city#", "#broken.capitalize# #noun.capitalize#"],
+"broken":["broken","bent","dangerous","crooked","wasted","left"],
+"noun":["man","hand","exhaust Pipe","shark"],
+"city":["Edina", "Stillwater", "Eagan", "Roseville", "Richfield"],
+"adjective":["peanut butter", "pumpkin", "pink", "Skittle", "Captain Crunch", "squid", "sour", "rust", "river water", "murky"],
 "style":["porter", "ale", "stout", "lager"]
 }
